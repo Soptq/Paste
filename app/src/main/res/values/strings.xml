@@ -1,0 +1,420 @@
+<resources>
+    <string name="app_name">Paste</string>
+    <string name="app_ver">1.2.3.R.425574c</string>
+    <string name="app_tips">Made With Love  ❤</string>
+
+
+    <!--Global-->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="fragment_1">General</string>
+    <string name="fragment_2">Entrance</string>
+    <string name="fragment_3">help</string>
+    <string name="fragment_4">Appearance</string>
+    <string name="copy">Copy</string>
+    <string name="restart">Restarting</string>
+    <string name="other">Other</string>
+    <string name="maintain">Maintain</string>
+    <string name="word"> Words</string>
+    <string name="image_word_single"> Image</string>
+    <string name="image_word_double"> Images</string>
+    <string name="year"> Year</string>
+    <string name="month"> Month</string>
+    <string name="day"> Day</string>
+    <string name="hour"> Hour</string>
+    <string name="minute"> Minute</string>
+    <string name="now">Now</string>
+    <string name="ago"> Ago</string>
+    <string name="category_word">Word</string>
+    <string name="category_color">Color</string>
+    <string name="category_phone">phone</string>
+    <string name="restart_to_aplay">Restart to make it works</string>
+    <string name="restart_content">To restart APP?</string>
+    <string name="restarting">Restarting, you need to wait at most 5 seconds</string>
+    <string name="webview_error">No Available Browers</string>
+    <string name="toast_tip1">Have been granted</string>
+    <string name="search_menu1">     Copy     </string>
+    <string name="search_menu2">    Collect    </string>
+    <string name="draw_overlay">Require Overlay Permission</string>
+    <string name="copied">Copied</string>
+    <string name="saved">Saved</string>
+    <string name="emptyview">Nothing Here</string>
+    <string name="accessibility_service_description">Used to collect app\'s package name to get icon and name.</string>
+    <string name="active_error">Fail to active, wrong key</string>
+    <string name="express1">Is this a express number?</string>
+    <string name="express2">A wrong number or no internet?</string>
+    <string name="express3">Searching</string>
+    <string name="express4">No record</string>
+    <string name="title_bl">BlackList</string>
+    <string name="no_voice_input">No Voice Input Settings, please check your manufacturer.</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="lock_noti">Lock current clipdata</string>
+    <string name="append_noti">Click again to stop appending</string>
+    <string name="noRoot">Not Rooted, Will Work As Mode Accessibility</string>
+    <string name="changelog">ChangeLog</string>
+    <string name="menu_sort_defalut">Sort by default</string>
+    <string name="menu_sort_time">Sort by time</string>
+    <string name="menu_sort_time_desc">Sort by time (desc)</string>
+    <string name="sms_copied">Identifying code has been sent to Paste floatwindow</string>
+    <string name="edit_tips">Detected Accessibility Service Permission Off, the original card will not been deleted.
+    </string>
+
+
+    <!--Notification Channel -->
+    <string name="channel_service">Paste Service</string>
+    <string name="channel_images_processing">Processing Images</string>
+
+    <!--Notification-->
+    <string name="image_processing">Processing Images</string>
+    <string name="image_processing_desc">Scaling and saving images, please try to open Paste\'s Clipboard later …
+    </string>
+
+    <!--Request Permission-->
+    <string name="why_title">Why we need this permission?</string>
+    <string name="why_content">Because we need your phone\'s ID to register, but this ID can only been read after we get permission. We will not do any other things.</string>
+    <string name="permission_title1">Accessibility Permission isn\'t granted</string>
+    <string name="permission_content1">Paste can not catch icon and name of the app you copy from. For the best experience, this Notification will keep showing before you turn it on.</string>
+    <string name="permission_title2">You just swipe up the card</string>
+    <string name="permission_content2">This feature can help you paste content to the currently position and ignore a lot of noisy actions! but it is also a fact of Android Fragmentation. \n\n<b>For Accessibility User</b>, this feature can only work at certain places.  \n\n<b>For Root user but android version is under Android 7</b>, this feature can only work when paste English and Math. \n\n<b>If you are Root User and on Android 7 or above</b>, congraduation, this feature has no limited.</string>
+    <string name="turnon_access">Turn On</string>
+    <string name="acknowledge">Acknowledge</string>
+    <string name="base_permission">Fail to get Permissions</string>
+    <string name="base_permission_sub">You may need to grant these permission manually</string>
+
+    <!--Tester-->
+    <string name="tester_welcome_title">Welcome</string>
+    <string name="tester_welcome_content">Now you have joint Paste Beta Group. <b>You now have full access to any function of app. </b>This is still a very early access but i have done most of the core functions. Any bugs or requests please contact developer derectly. Thanks for your contribution</string>
+
+    <!--Under Develipment-->
+    <string name="under_development">Still Under Development</string>
+    <string name="service_temp">Service is working</string>
+    <string name="student_made_tip">Have no money to develop cloud service</string>
+
+
+    <!--Nav-->
+    <string name="nav_home">Home</string>
+    <string name="nav_about">About</string>
+    <string name="nav_billing">Billing</string>
+
+    <!--General Fragment-->
+    <string name="app_off">You need to TURN ON to set</string>
+    <string name="quicklook_permission">Permission</string>
+    <string name="quicklook_database">Data Base</string>
+    <string name="quick_service">Service</string>
+    <string name="quick_cloud">Cloud</string>
+    <string name="appearance_title">Appearance  Settings</string>
+    <string name="appearance_modes">Working Modes</string>
+    <string name="appearance_modes_sub">Choose a method to work</string>
+    <string name="appearance_card_modes">Card Appearances</string>
+    <string name="appearance_card_modes_sub">Choose a card\'s appearance</string>
+    <string name="appearance_cardnum">Card Number</string>
+    <string name="appearance_cardnum_dialog_title">Input</string>
+    <string name="appearance_cardnum_dialog_content">Custom your card number. <b>Please be awarded that setting the number too large will have no benefit to the whole system.</b> You can\'t use them all but they will cost your device\'s memory</string>
+    <string name="appearance_colorful_background">Colorful Backgound</string>
+    <string name="appearance_colorful_backgound_sub">Render colorful backgound</string>
+    <string name="appearance_default_color">Default Color</string>
+    <string name="appearance_default_color_content">Pick your own color</string>
+    <string name="appearance_picking_method">Picking Methods</string>
+    <string name="appearance_picking_method_sub">Different color algorihms</string>
+    <string name="appearance_nav_access">Show Button in Nav Bar</string>
+    <string name="appearance_nav_access_sub">Android Oreo new feature</string>
+    <string name="service_title">Service</string>
+    <string name="service_autoboot">Start Service After Booting</string>
+    <string name="service_autoboot_sub">Auto start service</string>
+    <string name="service_restart">Restart Service</string>
+    <string name="service_restart_sub">Refresh to notification</string>
+    <string name="notification_title">Notification</string>
+    <string name="notification_show">Show Notification</string>
+    <string name="notification_show_content">It can help Paste to daemon</string>
+    <string name="notification_entrance">Enable Notification Entrance</string>
+    <string name="notification_entrance_sub">poping up window by clicking notification</string>
+    <string name="notification_clip">Show Clipdata In Notificaiton</string>
+    <string name="notification_clip_sub">Watch clipdata quicker and easier</string>
+    <string name="card_mode_about">Card Appearances</string>
+    <string name="card_mode_about_content">We recommand you to choose Default. But if you are tired of granting Accessibility Permission, you can choose Compaty to avoid granting Permission</string>
+    <string name="floatwindow_alpha">Float Window Alpha ( Default 100 )</string>
+    <string name="floatwindow_color">Float Window Backgound Color</string>
+    <string name="setting_qr">QR Setting</string>
+    <string name="qr_bg">QR Backgound</string>
+    <string name="qr_bg_content">Costom your QR backgound</string>
+    <string name="qr_dot">QR dot</string>
+    <string name="qr_dot_content">Use dot instead of square when generating</string>
+    <string name="nav_botton_helper">Please reenable Accessibility Permission to apply</string>
+    <string name="setting_disable_ads">Disable Ads</string>
+    <string name="setting_disable_ads_sub">Disable all build-in ads</string>
+    <string name="setting_disable_ads_dialog_title">Do you know?</string>
+    <string name="setting_disable_ads_dialog_content">Developers need to pay api providers to use their api, if developers have no money to pay, this app will die very quickly.</string>
+    <string name="setting_disable_ads_dialog_cancel">Cancel</string>
+    <string name="setting_disable_ads_dialog_continue">Continue disabling</string>
+    <string name="setting_blacklist">BlackList</string>
+    <string name="setting_blacklist_app">BlackList Application</string>
+    <string name="setting_blacklist_app_sub">Select application you want to hide</string>
+    <string name="database_autoclear">Auto Clean Service</string>
+    <string name="database_autoclear_sub">Clean saves after days</string>
+    <string name="share_title">Share Settings</string>
+    <string name="share_enable">Enable Sharing Receiver</string>
+    <string name="share_enable_sub">Let paste save your sharing item</string>
+    <string name="share_compress">Image Compressor</string>
+    <string name="share_compress_sub">manage compressor to save storage</string>
+    <string name="share_disabled_toast">Please Enable Sharing Receiver in Paste General Setting</string>
+    <string name="share_about">What is this?</string>
+    <string name="share_about_sub">After enabling this, you can share images to Paste from other apps. Paste will handle sharing item properly and you can reshare it at anytime. This function is like a \'Sharing Clipboard\'.</string>
+    <string name="compressor_about">Compressor</string>
+    <string name="compressor_about_sub">When Paste receive images from other apps, Paste need to save it due to Google\'s policy, so with a compressor you can control how many spaces Paste can take. 100 means no loss, prefer >= 50 to get best performance.</string>
+    <string name="setting_regex_title">Regex Blocking</string>
+    <string name="setting_regex_sub">Custom your regex to block certain content</string>
+    <string name="dialog_regex_add">Add</string>
+    <string name="dialog_regex_delete">Delete</string>
+    <string name="setting_other">Other</string>
+    <string name="sms_receiver_title">Enable SMS Receiver</string>
+    <string name="sms_receiver_content">Auto send identifying code to Paste</string>
+    <string name="sms_content">Received Code %1$s %2$s %3$s from %4$s %5$s %6$s</string>
+    <string name="no_more_accessibility_tips_title">Enable tips</string>
+    <string name="no_more_accessibility_tips_content">when Accessibility Permission is not granted</string>
+
+
+    <!--Appearance Fragment-->
+    <string name="card_bg">Card\'s Background</string>
+    <string name="card_width">Card\'s Width</string>
+    <string name="floatwindow_height">Floatwindow\'s Height</string>
+    <string name="card_textsize">Text Size</string>
+
+
+    <!--Entrance Fragment-->
+    <string name="entrance_title">Entrance</string>
+    <string name="entrance_intro">Have you tired of select all texts and click "Paste" to popup the float window? Fear
+        not, In order to provide you the best experience when using our Paste App, we have privided up to 6 ways to
+        popup float window. Check the introductions here to learn more
+    </string>
+    <string name="entrance_method0">Float Window</string>
+    <string name="entrance_method0_intro">Add a float button to enter</string>
+    <string name="entrance_method1">Text Selector</string>
+    <string name="entrance_method1_intro">Using text tools to popup</string>
+    <string name="entrance_method1_content">This method may not take effect in some costom ROM, and this function is
+        enabled by default and you cannot disable it.
+    </string>
+    <string name="entrance_method2">Notification</string>
+    <string name="entrance_method2_intro">Add a intent to the notification</string>
+    <string name="entrance_method2_content">You can enable or disable it in the General Setting Page. After enableing
+        it, you can popup the float window bu clicking the notification. This function is enabled by default.
+    </string>
+    <string name="entrance_method3">Assistant API</string>
+    <string name="entrance_method3_intro">Make Paste the Assistant</string>
+    <string name="entrance_method3_content">By setting Paste App the Assistant APP,we can provide you a easier way to
+        popup window just by long-pressing the home button. This function is only available above Android M (API 26)
+    </string>
+    <string name="entrance_method4">Accessibility Button</string>
+    <string name="entrance_method4_intro">A new method just for Android Oreo</string>
+    <string name="entrance_method4_content">A new experimental method, may work unstably. This function can provide you
+        a new button in Navigation Bar.only available above Android Oreo (API 26) and the devices which have Nav Bar.
+    </string>
+    <string name="entrance_setting_alpha">Float Button Alpha ( Default: 100 )</string>
+    <string name="entrance_setting_size">Float Button Size ( Default: 50 )</string>
+
+    <!--Help Fragment-->
+    <string name="help_1_title">How to use?</string>
+    <string name="help_1_content">After starting the service, you can do anything as normal. However, the Paste Service
+        will mark down evry words when you copy. And when you want to paste from history, you can popup the floatwindow
+        and find the memory. And finally, long-pressing to copy. Also, we provide something else. You can try to copy a
+        color ( like #768955 or something ), the Paste app will automatically render the card\'s background to the color
+        you copied. You can also try to click the card and you can edit the card\'s content anytime.
+    </string>
+    <string name="help_2_title">Assist App is not working?</string>
+    <string name="help_2_content">This function is working in most of the AOSP like ROM. However, if it wont work in your ROM, maybe your ROM block it.If you are AOSP like Rom, please check if there is a setting like \'Long pressing to do \'.If it do ,please change it to open \'Assist App\' or just simply change it to Paste\'s shortcut. If you are running MIUI</string>
+    <string name="help_3_title">How to keep Paste service?</string>
+    <string name="help_3_content">Paste has a consummate back service logic. All core methods and functions are written
+        in service. Paste\'s interface is only made to set settings, and you can finish these activities a if you want.
+        So in order to keep service, you just need to start Paste service and make sure Paste is in the 3-rd part
+        guarding app's whitelist.(eg. Greenify)
+    </string>
+    <string name="help_4_title">How to use some special functions?</string>
+    <string name="help_4_content">Appending mode: press the button on Paste float window to enable it. After enabling
+        it, Paste will take over Android clipboard manager and nothing will save to clipboard until you disable it. And
+        all text you copied during this period of time will append together and be sent to your clipboard. \n\nLock
+        mode: press the button on Paste float window to enable it. After enabling it, Paste will lock currently Android
+        clipboard, nothing will be saved to clipboard during this period of time. \n\nUniversal copy: After you grant
+        Accessibility Permission to Paste, you can press the button on Paste float window to enable universal copy.you
+        can click any text on the screen to copy.
+    </string>
+    <string name="help_5_title">What is Regex Protection?</string>
+    <string name="help_5_content">Some applications will regularly send code to the Android clipboard to promote one of
+        their products. This may seem harmless, but sometimes our clipboard may just store important information. Regex
+        Protection is born for this purpose. Add regex to filter out some regular information to keep the clean
+        clipboard.
+    </string>
+
+
+    <!--QuickLook Permission-->
+    <string name="ness_perm">Necessary  Permission</string>
+    <string name="permission_access">Accessibility Permission</string>
+    <string name="permission_overlay">Overlay Permission</string>
+    <string name="other_perm">Other  Permissions</string>
+    <string name="bugly_perm">Fabric Plantform Permission</string>
+    <string name="permission_tips_1">To get other apps\' name nad icon</string>
+    <string name="permission_tips_2">To draw overlay window</string>
+    <string name="permission_tips_3">To enable ACCESSIBILITY SERVICE</string>
+    <string name="permission_tips_4">To show window over other layers</string>
+    <string name="permission_tips_5">To start service after booting</string>
+    <string name="permission_tips_6">To collect data when app crashes</string>
+    <string name="permission_tips_7">To upload logs to server</string>
+    <string name="permission_tips_8">To read logs</string>
+    <string name="permission_tips_9">To save datas</string>
+    <string name="permission_tips_10">To read datas</string>
+
+    <!--QuickLook Database-->
+    <string name="database_selfcheck1">DataBase works well</string>
+    <string name="database_selfcheck2">Have maintained Database</string>
+    <string name="delete_database">Delete Database</string>
+    <string name="delete_database_sub">Try this if you meet problems</string>
+    <string name="database_dialog_warning">Dangerous Action</string>
+    <string name="database_dialog_content">Are you sure to delete the whole database and restore?</string>
+
+    <!--QuickLook CloudService-->
+    <string name="login_success">login success</string>
+    <string name="login">LOGIN</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+    <string name="register">REGISTER</string>
+
+    <!--Billing-->
+    <string name="billing_title">Billing</string>
+    <string name="prm_code">Promote Code</string>
+    <string name="prm_code_content">Every single phone will get a different code to unlock pro version after purchasing, <b>please keep it.</b> If you change your phone, please contact developer with your scrrenshot of purchaing and your phone id</string>
+    <string name="prm_paste">Paste Code From Clipbroad</string>
+    <string name="get_pro">Get Pro Version</string>
+    <string name="benefit_1">No Limited Saves</string>
+    <string name="benefit_1_sub">Set card number as much as you want</string>
+    <string name="benefit_2">Support Developer to maintain</string>
+    <string name="benefit_2_sub">Buy developer a drink</string>
+    <string name="benefit_3">Translate words</string>
+    <string name="translation_section">Translate to ...</string>
+    <string name="benefit_3_sub">Will make it translate from Chinese later</string>
+    <string name="purchase_method">Purchase By</string>
+    <string name="purchase_method_1">Alibaba Ali Pay</string>
+    <string name="purchase_method_2">Tencent Wechat Pay</string>
+    <string name="inputCode">Enter your prmote code</string>
+    <string name="pro_user">Pro Version</string>
+    <string name="promodecode">Your Promote Code :  </string>
+    <string name="isnotpro">Require Pro Version</string>
+    <string name="cant_draw_overlay">Require Overlay Permission</string>
+
+    <!--About-->
+    <string name="about_title">About</string>
+    <string name="about_general">General</string>
+    <string name="about_general_ver">Version</string>
+    <string name="about_update">Update Logs</string>
+    <string name="about_open_source">Open Source Licens</string>
+    <string name="about_developer">About  Developer</string>
+    <string name="about_developer_name">Soptq</string>
+    <string name="about_developer_contry">From China</string>
+    <string name="about_developer_website">Website</string>
+    <string name="about_contribute">Contribute</string>
+    <string name="about_submit_bugs">Report Bugs</string>
+    <string name="about_submit_bugs_sub">Report bugs or requesting new features</string>
+    <string name="about_star">Star</string>
+    <string name="about_star_sub">If you like Paste App, Please leave your feedback in store</string>
+    <string name="about_intro">Introduction</string>
+    <string name="special_thanks">Special Thanks</string>
+    <string name="about_translator">Help us translate</string>
+    <string name="about_translator_sub">Make Paste a international app</string>
+
+    <!--Card Pop Up Menu-->
+    <string name="card_menu_edit">Edit</string>
+    <string name="card_menu_collect">Collect</string>
+    <string name="card_menu_cancel_collect">Cancel Collect</string>
+    <string name="card_menu_search">Search</string>
+    <string name="card_menu_translation">Translation</string>
+    <string name="card_menu_dismiss_translatino">Dismiss Translation</string>
+    <string name="card_menu_share">Share</string>
+    <string name="card_menu_open">Open Url</string>
+    <string name="card_menu_read">Read</string>
+
+    <!--Edit Mode-->
+    <string name="edit_title">Edit Mode</string>
+    <string name="edit_content1">Swipe Up To Delete</string>
+    <string name="edit_content2">Long Press To Switch</string>
+
+    <!--Intro-->
+    <string name="intro_content">Welcome to Paste. Paste is a app which help people manage clipboard and develop the ability of Android\'s clipboard</string>
+    <string name="intro_title2">Float Window</string>
+    <string name="intro_content2">Slide to observer the content of cards</string>
+    <string name="intro_title3">Copy</string>
+    <string name="intro_content3">Long press the card to copy the content</string>
+    <string name="first_start_service_title">Congradulation</string>
+    <string name="first_start_service_content">You have start the service successfully, now you can try swipe down the notification bar and click the Paste notification to show float window.</string>
+
+
+    <!--IssueReporter-->
+    <string name="issue_title">Issue Reporter</string>
+    <string name="issue_join">Join Our Comunnity</string>
+    <string name="issue_join_content">QQ Comunnity: 716971999</string>
+    <string name="issue_toast">Number has been Copied</string>
+    <string name="air_title_report_issue">Report issue</string>
+
+    <string name="air_title_issue">Issue</string>
+    <string name="air_title_login">Login</string>
+
+    <string name="air_label_issue_title">Title</string>
+    <string name="air_label_issue_description">Description</string>
+    <string name="air_label_device_info">Device info</string>
+
+    <string name="air_label_use_account">Send using GitHub account</string>
+    <string name="air_label_use_email">Send using E-mail</string>
+    <string name="air_label_use_guest">Send anonymously</string>
+    <string name="air_label_username">Username</string>
+    <string name="air_label_password">Password</string>
+    <string name="air_label_email">E-mail</string>
+    <string name="air_label_email_optional">E-mail (optional)</string>
+    <string name="air_error_no_title">Please enter an issue title</string>
+    <string name="air_error_no_description">Please enter an issue description</string>
+    <plurals name="air_error_short_description">
+        <item quantity="one">The description must have at least %d character</item>
+        <item quantity="other">The description must have at least %d characters</item>
+    </plurals>
+    <string name="air_error_no_username">Please enter your valid GitHub username</string>
+    <string name="air_error_no_password">Please enter your valid GitHub password</string>
+    <string name="air_error_no_email">Please enter a e-mail address</string>
+    <string name="air_dialog_title_loading">Uploading report to GitHub…</string>
+    <string name="air_dialog_title_failed">Unable to send report</string>
+    <string name="air_dialog_description_failed_wrong_credentials">Wrong username or password</string>
+    <string name="air_dialog_description_failed_invalid_token">Invalid access token. Please contact the app developer.</string>
+    <string name="air_dialog_description_failed_issues_not_available">Issues are not enabled for the selected repository. Please contact the app developer.</string>
+    <string name="air_dialog_description_failed_unknown">An unexpected error occurred. Please contact the app developer.</string>
+    <string name="air_dialog_action_failed">OK</string>
+
+
+    <!--Pay-->
+    <string name="pay_fail">Fail</string>
+    <string name="pay_succ">Thank you</string>
+    <string name="pay_succ_content">Pay Successfully, you are now have no limited using our Paste.</string>
+    <string name="pay_active">Active</string>
+    <string name="promote_active">Activing</string>
+    <string name="short_url_pre">Short Url :  </string>
+    <string name="main_url_pre">Main Url :  </string>
+
+    <!--share-->
+    <string name="share_share">Share Url</string>
+    <string name="share_dialog_title">Share Url and Qr code</string>
+    <string name="share_share2">Share Content</string>
+    <string name="share_content">"<b>Contents</b> :   "</string>
+    <string name="share_save">Save Image</string>
+
+    <string name="special_thanks_1">TTTornado</string>
+    <string name="special_thanks_1_content">For great help to report Bugs and suggestions</string>
+
+    <!--ShortCuts-->
+    <string name="shortcut_1">ClipBoard</string>
+
+    <!--Universe Copy-->
+    <string name="universe_copy_no_content">No content to copy</string>
+    <string name="universe_copy_success">Copy Successed</string>
+    <string name="universe_disability">Cannot copy items from Paste or System UI</string>
+
+    <!--ViewerActivity-->
+    <string name="text_size_title">Text Size</string>
+
+</resources>

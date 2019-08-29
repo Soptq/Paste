@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Paste_Data" />
+
+    <version value="10"/>
+
+    <list>
+        <mapping class="soptqs.paste.database.ClipSaves" />
+        <mapping class="soptqs.paste.database.BlackListSaves" />
+        <mapping class="soptqs.paste.database.RegexSaves" />
+        <mapping class="soptqs.paste.database.ExpressSaves"/>
+    </list>
+</litepal>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/product_sans_regular"
+                    android:singleLine="true"
+                    android:text="@string/billing_title"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/billing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:animateLayoutChanges="true"
+        android:background="@color/colorGreyBG"
+        android:layoutAnimation="@anim/anim_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp">
+
+            <android.support.v7.widget.CardView
+                    android:id="@+id/billing_ispro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:stateListAnimator="@animator/item_raise"
+                    android:visibility="gone"
+                    app:cardCornerRadius="2dp"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="horizontal">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                   android:src="@drawable/ic_action_heart"
+                                   android:padding="16dp"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:text="@string/pro_user"
+                                android:gravity="center"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="28sp"/>
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="16dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/promodecode"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorgrey"
+                            android:textIsSelectable="true"
+                            android:textSize="16sp"/>
+
+                    <TextView
+                            android:id="@+id/billing_promotecode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textIsSelectable="true"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:stateListAnimator="@animator/item_raise"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/prm_code"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="8dp"
+                            android:lineSpacingExtra="8dp"
+                            android:textColor="@color/colorBlack"
+                            android:text="@string/prm_code_content"
+                            android:textSize="16sp"/>
+
+                    <TextView
+                            android:id="@+id/purchase_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:text=" ID :"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"/>
+
+                    <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+                        android:id="@+id/purchase_promotecode_textfieldboxes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="8dp"
+                        app:hasClearButton="true"
+                        app:helperText="@string/inputCode"
+                        app:iconSignifier="@drawable/ic_vpn_key_black_24dp"
+                        app:labelText="@string/prm_code"
+                        app:maxCharacters="24"
+                        app:minCharacters="24"
+                        app:primaryColor="@color/colorgreen">
+
+                        <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                            android:id="@+id/purchase_promotecode_extendededittext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:prefix="#"/>
+
+                    </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/purchase_promote_paste"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:background="@android:color/transparent"
+                            android:text="@string/prm_paste"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorgrey" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/purchase_promote_confirm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:background="@android:color/transparent"
+                            android:text="@string/dialog_confirm"
+                            android:textAllCaps="false"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:stateListAnimator="@animator/item_raise"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="16dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/get_pro"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="16dp"
+                            android:src="@drawable/ic_star_black_24dp"
+                            android:tint="@color/colorAPP"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1065353216.000000"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:gravity="bottom"
+                                    android:minHeight="35dp"
+                                    android:singleLine="true"
+                                    android:text="@string/benefit_1"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="16sp"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1065353216.000000"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:gravity="top"
+                                    android:minHeight="35dp"
+                                    android:singleLine="true"
+                                    android:text="@string/benefit_1_sub"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                    android:textColor="@color/colorgrey"
+                                    android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="16dp"
+                            android:src="@drawable/ic_translate_black_24dp"
+                            android:tint="@color/colorAPP" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1065353216.000000"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:gravity="bottom"
+                                    android:minHeight="35dp"
+                                    android:singleLine="true"
+                                    android:text="@string/benefit_3"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="16sp"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1065353216.000000"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:gravity="top"
+                                    android:minHeight="35dp"
+                                    android:singleLine="true"
+                                    android:text="@string/benefit_3_sub"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                    android:textColor="@color/colorgrey"
+                                    android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="16dp"
+                            android:src="@drawable/ic_local_cafe_black_24dp"
+                            android:tint="@color/colorAPP"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1065353216.000000"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:gravity="bottom"
+                                    android:minHeight="35dp"
+                                    android:singleLine="true"
+                                    android:text="@string/benefit_2"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="16sp"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1065353216.000000"
+                                    android:fontFamily="@font/product_sans_regular"
+                                    android:gravity="top"
+                                    android:minHeight="35dp"
+                                    android:singleLine="true"
+                                    android:text="@string/benefit_2_sub"
+                                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                                    android:textColor="@color/colorgrey"
+                                    android:textSize="14sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:stateListAnimator="@animator/item_raise"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginTop="16dp"
+                            android:fontFamily="@font/product_sans_regular"
+                            android:text="@string/purchase_method"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorgrey"
+                            android:textSize="14sp"
+                            android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:id="@+id/purchase_alipay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:minHeight="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                                android:layout_width="56dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center"
+                                android:padding="16dp"
+                                android:src="@mipmap/ic_alipay"
+                                android:tint="@color/readerColor"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:gravity="center"
+                                android:minHeight="70dp"
+                                android:singleLine="true"
+                                android:text="@string/purchase_method_1"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/colorgrey"
+                                android:textSize="16sp"/>
+
+                        <TextView
+                                android:id="@+id/money_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:gravity="center|right"
+                                android:minHeight="70dp"
+                                android:singleLine="true"
+                                android:text="5"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/colorgrey"
+                                android:textSize="16sp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/purchase_wechat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="70dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                                android:layout_width="56dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center"
+                                android:padding="16dp"
+                                android:src="@mipmap/ic_wechatpay"
+                                android:tint="@color/colorgreen"/>
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:gravity="center"
+                                android:minHeight="70dp"
+                                android:singleLine="true"
+                                android:text="@string/purchase_method_2"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/colorgrey"
+                                android:textSize="16sp"/>
+
+                        <TextView
+                                android:id="@+id/money_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/product_sans_regular"
+                                android:gravity="center|right"
+                                android:minHeight="70dp"
+                                android:singleLine="true"
+                                android:text="5"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                android:textColor="@color/colorgrey"
+                                android:textSize="16sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

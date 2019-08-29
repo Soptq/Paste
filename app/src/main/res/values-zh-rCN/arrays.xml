@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_card_mode">
+        <item>默认</item>
+        <item>兼容</item>
+        <!--<item>竖排</item>-->
+        <!--<item>竖排兼容</item>-->
+    </string-array>
+
+    <string-array name="array_auto_clear">
+        <item>3 天</item>
+        <item>7 天</item>
+        <item>30 天</item>
+        <item>永久</item>
+    </string-array>
+
+    <string-array name="array_color_methods">
+        <item>鲜艳的</item>
+        <item>主要</item>
+        <item>生动</item>
+        <item>柔和</item>
+        <item>默认颜色</item>
+    </string-array>
+
+    <string-array name="array_mode">
+        <item>Root</item>
+        <item>无障碍</item>
+    </string-array>
+
+    <string-array name="array_card">
+        <item>剪贴板</item>
+        <item>收藏</item>
+    </string-array>
+
+    <string-array name="translate_from">
+        <item>中文</item>
+        <item>英语</item>
+        <item>粤语</item>
+        <item>文言文</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>法语</item>
+        <item>西班牙语</item>
+        <item>泰语</item>
+        <item>阿拉伯语</item>
+        <item>俄语</item>
+        <item>葡萄牙语</item>
+        <item>德语</item>
+        <item>意大利语</item>
+        <item>希腊语</item>
+        <item>荷兰语</item>
+        <item>波兰语</item>
+        <item>保加利亚语</item>
+        <item>爱沙尼亚语</item>
+        <item>丹麦语</item>
+        <item>芬兰语</item>
+        <item>捷克语</item>
+        <item>罗马利亚语</item>
+        <item>斯洛文尼亚语</item>
+        <item>瑞典语</item>
+        <item>匈牙利语</item>
+        <item>繁体中文</item>
+        <item>越南语</item>
+    </string-array>
+
+    <string-array name="translate_from_code">
+        <item>zh</item>
+        <item>en</item>
+        <item>yue</item>
+        <item>wyw</item>
+        <item>jp</item>
+        <item>kor</item>
+        <item>fra</item>
+        <item>spa</item>
+        <item>th</item>
+        <item>ara</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>de</item>
+        <item>it</item>
+        <item>el</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>bul</item>
+        <item>est</item>
+        <item>dan</item>
+        <item>fin</item>
+        <item>cs</item>
+        <item>rom</item>
+        <item>slo</item>
+        <item>swe</item>
+        <item>hu</item>
+        <item>cht</item>
+        <item>vie</item>
+    </string-array>
+</resources>

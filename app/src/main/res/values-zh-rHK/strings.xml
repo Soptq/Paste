@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">Paste</string>
+    <string name="app_tips">Made With Love  ❤</string>
+
+
+    <!--Global-->
+    <string name="dialog_confirm">確認</string>
+    <string name="fragment_1">基礎</string>
+    <string name="fragment_2">入口</string>
+    <string name="fragment_3">幫助</string>
+    <string name="copy">復制</string>
+    <string name="restart">重啟中</string>
+    <string name="other">其他</string>
+    <string name="maintain">維護</string>
+
+    <!--Tester-->
+    <string name="tester_welcome_title">歡迎</string>
+    <string name="tester_welcome_content">現在您已經加入了測試組。<b>您會擁有這個軟件所有的使用權</b>，這還是壹個早期版本，但軟件的所有核心功能已經完成。任何 bugs 或者意見請直接提交給開發者，謝謝您的貢獻。</string>
+
+    <!--Under Develipment-->
+    <string name="under_development">正在開發中</string>
+    <string name="service_temp">服務正在運行</string>
+    <string name="student_made_tip">學生黨哪裏來的服務器</string>
+
+
+    <!--Nav-->
+    <string name="nav_home">主頁</string>
+    <string name="nav_about">關於</string>
+    <string name="nav_billing">購買</string>
+
+    <!--General Fragment-->
+    <string name="app_off">您需要開啟總開關來啟動軟件</string>
+    <string name="quicklook_permission">權限</string>
+    <string name="quicklook_database">數據庫</string>
+    <string name="quick_service">服務</string>
+    <string name="quick_cloud">雲服務</string>
+    <string name="appearance_title">外觀設置</string>
+    <string name="appearance_modes">工作模式</string>
+    <string name="appearance_modes_sub">選擇壹種工作模式</string>
+    <string name="appearance_cardnum">卡片數量</string>
+    <string name="appearance_cardnum_dialog_title">輸入</string>
+    <string name="appearance_cardnum_dialog_content">自定義您的卡片數量。<b>請註意太多的卡片沒有什麽好處。</b>畢竟您不可能用得完那麽多。</string>
+    <string name="appearance_colorful_background">多彩背景</string>
+    <string name="appearance_colorful_backgound_sub">渲染多彩的背景</string>
+    <string name="appearance_default_color">默認顏色</string>
+    <string name="appearance_default_color_content">選擇您的默認顏色</string>
+    <string name="appearance_picking_method_sub">不同的采樣算法</string>
+    <string name="service_title">服務</string>
+    <string name="service_autoboot">在開機後自動啟動服務</string>
+    <string name="service_autoboot_sub">自啟功能</string>
+    <string name="service_restart">重啟服務</string>
+    <string name="service_restart_sub">重新刷新通知</string>
+    <string name="notification_title">通知</string>
+    <string name="notification_entrance">開啟通知跳轉</string>
+    <string name="notification_entrance_sub">點擊通知來打開懸浮窗</string>
+    <string name="notification_clip">在通知中展示剪貼板</string>
+    <string name="notification_clip_sub">更簡單的復制方法</string>
+
+    <!--QuickLook Permission-->
+    <string name="ness_perm">必須的權限</string>
+    <string name="permission_access">無障礙權限</string>
+    <string name="permission_overlay">懸浮窗權限</string>
+    <string name="other_perm">其他權限</string>
+    <string name="bugly_perm">Fabric 平臺所需權限</string>
+    <string name="permission_tips_1">得到其他軟件的名稱和圖標</string>
+    <string name="permission_tips_2">展示懸浮窗</string>
+    <string name="permission_tips_3">開啟無障礙權限</string>
+    <string name="permission_tips_4">在其他層上顯示懸浮窗</string>
+    <string name="permission_tips_5">接受開機完畢廣播</string>
+    <string name="permission_tips_6">在崩潰時手機相關信息</string>
+    <string name="permission_tips_7">上傳日誌到服務器</string>
+    <string name="permission_tips_8">讀取日誌</string>
+    <string name="permission_tips_9">存儲數據</string>
+    <string name="permission_tips_10">讀取數據</string>
+
+    <!--QuickLook Database-->
+    <string name="database_selfcheck1">數據庫工作正常</string>
+    <string name="database_selfcheck2">已經維護過數據庫了</string>
+
+    <!--Billing-->
+    <string name="billing_title">購買</string>
+    <string name="prm_code">激活代碼</string>
+    <string name="prm_code_content">每臺手機都會得到不同的激活代碼，<b>請妥善保存。</b> 如果您更換了您的手機，請帶上本頁面截圖和購買記錄聯系開發者。</string>
+    <string name="prm_paste">從剪貼板復制代碼</string>
+    <string name="get_pro">獲取專業版本</string>
+    <string name="benefit_1">無限存儲</string>
+    <string name="benefit_1_sub">隨意設定您的存儲界限</string>
+    <string name="benefit_2">幫助開發者更好的維護軟件</string>
+    <string name="benefit_2_sub">為開發者買茶</string>
+    <string name="purchase_method">支付方式</string>
+    <string name="purchase_method_1">支付寶</string>
+    <string name="purchase_method_2">微信支付</string>
+
+
+
+    <string name="appearance_picking_method">顏色采樣方式</string>
+    <string name="entrance_title">入口</string>
+    <string name="entrance_intro">厭倦了麻煩的打開懸浮窗操作？不要害怕，我們為了您的最佳體驗，向您提供了多達 6 種入口方式。繼續查看以了解更多。</string>
+    <string name="entrance_method1">文本選擇器</string>
+    <string name="entrance_method1_intro">使用文本選項來展示懸浮窗</string>
+    <string name="entrance_method1_content">這項方法可能在壹些自定義系統中不起作用。但這項功能被系統默認開啟且無法關閉</string>
+    <string name="entrance_method2">通知</string>
+    <string name="entrance_method2_intro">向通知加入鏈接</string>
+    <string name="entrance_method2_content">妳可以在\"基礎\"頁面\"開啟或關閉這個功能。開啟後您可以點擊通知欄</string>
+    <string name="entrance_method3">輔助應用</string>
+    <string name="entrance_method3_intro">使 Paste 成為輔助應用</string>
+    <string name="entrance_method3_content">當 Paste 成為輔助應用後，您可以長按Home鍵來快捷開啟懸浮窗。這項功能只在安卓 6 以上生效</string>
+    <string name="entrance_method4">無障礙按鈕</string>
+    <string name="entrance_method4_intro">壹個全新的僅為安卓8提供的入口</string>
+    <string name="entrance_method4_content">最新實驗入口，工作不壹定穩定。這項功能能在您的導航欄上提供壹個按鈕來展示懸浮窗。只在安卓8以上有效且您的設備必須擁有導航欄。</string>
+    <string name="app_ver">1.2.3.R.425574c</string>
+    <string name="why_title">為什麽需要這個權限？</string>
+    <string name="why_content">因為我們需要得到您手機的註冊碼來進行註冊，這個碼只能在獲得這個權限後才能被讀取。除此之外，我們不會做任何其他的操作。</string>
+    <string name="delete_database">刪除數據庫</string>
+    <string name="delete_database_sub">在遇到不可理解的問題後嘗試這個操作</string>
+    <string name="database_dialog_warning">危險操作</string>
+    <string name="database_dialog_content">確定刪除整個數據庫？</string>
+    <string name="inputCode">輸入您的激活代碼</string>
+    <string name="about_general">基本</string>
+    <string name="about_general_ver">版本</string>
+    <string name="about_update">更新日誌</string>
+    <string name="about_open_source">開源協議</string>
+    <string name="about_developer">關於開發者</string>
+    <string name="about_developer_name"> Soptq </string>
+    <string name="about_developer_contry">中國</string>
+    <string name="about_developer_website">網頁</string>
+    <string name="about_contribute">貢獻</string>
+    <string name="about_submit_bugs">反饋 Bugs </string>
+    <string name="about_submit_bugs_sub">反饋 Bugs 或者提交新意見</string>
+    <string name="about_star">打分</string>
+    <string name="about_star_sub">如果您喜歡這個軟件，請在商店裏留下您的反饋和好評</string>
+    <string name="word">" 個字"</string>
+    <string name="year">" 年"</string>
+    <string name="day">" 天"</string>
+    <string name="hour">" 小時"</string>
+    <string name="minute">" 分鐘"</string>
+    <string name="ago">"前"</string>
+    <string name="about_title">關於</string>
+    <string name="card_menu_edit">編輯</string>
+    <string name="month">" 月"</string>
+    <string name="now">"現在"</string>
+    <string name="category_word">文字</string>
+    <string name="category_color">顏色代碼</string>
+    <string name="restart_to_aplay">重啟應用來使懸浮窗生效</string>
+    <string name="webview_error">沒有可用的瀏覽器</string>
+    <string name="entrance_method0">懸浮按鈕</string>
+    <string name="entrance_method0_intro">新增壹個懸浮按鈕來進入</string>
+    <string name="restart_content">重啟壹次 Paste ?</string>
+    <string name="restarting">重啟中，您最多會等待 5 秒</string>
+    <string name="toast_tip1">已經被授權了</string>
+    <string name="notification_show">顯示通知</string>
+    <string name="notification_show_content">顯示通知將有助於後臺保活</string>
+    <string name="card_menu_collect">收藏</string>
+    <string name="entrance_setting_alpha">懸浮按鈕透明度（ 默認 100 ）</string>
+    <string name="entrance_setting_size">懸浮按鈕大小（ 默認 50 ）</string>
+    <string name="help_1_title">如何使用？</string>
+    <string name="help_1_content">開啟服務後，您可以向以前壹些使用您的手機， Paste 的後臺服務會默默記錄下您每壹次的復制內容，並在後臺整理，分析。當您想要復制上古內容時，您僅僅需要打開懸浮窗，找到您想要的內容，最後，長按卡片復制。我們還為您準備了些別的東西，不僅有內容分析：復制顏色代碼時，比如#345234，卡片會自動識別並將背景設定為所復制的顏色。還有非復制內容的編輯，歸檔。近乎無限的儲存能力將滿足您的壹切願望</string>
+    <string name="help_2_title">輔助應用無法正常工作？</string>
+    <string name="help_2_content">這項功能可以在絕大多數的原生或類原生系統上正常工作。但是，如果它無法在您的設備上工作，也許是您的設備屏蔽了該服務。請查看您的設置中是否存在 \'長按按鍵\' 設置，如果有，請將它設定為開啟輔助應用或直接設定為開啟 Paste 的快捷方式</string>
+    <string name="edit_title">編輯模式</string>
+    <string name="edit_content1">上劃以刪除</string>
+    <string name="edit_content2">長按以切換位置</string>
+    <string name="search_menu1">"      復制      "</string>
+    <string name="search_menu2">"      收藏      "</string>
+    <string name="card_menu_search">搜索</string>
+    <string name="draw_overlay">需要懸浮窗權限</string>
+    <string name="permission_title1">無障礙權限沒有被授予</string>
+    <string name="permission_content1">Paste 不能獲得您所復制的軟件信息，為了最佳的用戶體驗，在您開啟無障礙權限或使用 Root 模式前，信息會持續提示。</string>
+    <string name="permission_title2">您剛剛上滑了卡片</string>
+    <string name="permission_content2">這項功能可以幫您將內容粘貼在當前位置並省去您大量繁瑣工作！但是這項功能的實現也體現了安卓碎片化的嚴重。\n\n<b>無障礙權限用戶</b>：這項功能只能在特定的地方使用。\n\n<b>Root用戶但安卓版本在 7 以下</b>：這項功能只能幫您粘貼英語和數字。\n\n<b>Root用戶且安卓版本在 7 或以上</b>：恭喜，這項功能在您的設備上沒有任何限制</string>
+    <string name="intro_content">歡迎使用 Paste。 Paste 是壹款幫助您管理和拓展安卓剪貼板的應用。</string>
+    <string name="intro_title2">懸浮窗</string>
+    <string name="intro_content2">左右滑動來監管卡片內容。</string>
+    <string name="intro_title3">復制</string>
+    <string name="intro_content3">長按對應卡片來復制卡片內內容</string>
+    <string name="first_start_service_title">恭喜</string>
+    <string name="first_start_service_content">您剛剛成功地開啟了服務，在授予軟件懸浮窗權限後，您可以試試下滑通知欄，點擊 Paste 的通知來打開懸浮窗。</string>
+    <string name="turnon_access">開啟</string>
+    <string name="acknowledge">繼續復制</string>
+    <string name="air_title_report_issue">報告問題</string>
+
+    <string name="air_title_issue">報告</string>
+    <string name="air_title_login">登錄</string>
+
+    <string name="air_label_issue_title">標題</string>
+    <string name="air_label_issue_description">描述</string>
+    <string name="air_label_device_info">設備信息</string>
+
+    <string name="air_label_use_account">用您的Github賬號發送</string>
+    <string name="air_label_use_email">用Email發送</string>
+    <string name="air_label_use_guest">匿名發送</string>
+    <string name="air_label_username">用戶名</string>
+    <string name="air_label_password">密碼</string>
+    <string name="air_label_email">E-mail</string>
+    <string name="air_label_email_optional">E-mail (選填)</string>
+    <string name="air_error_no_title">請輸入壹個標題</string>
+    <string name="air_error_no_description">請輸入壹段描述</string>
+    <plurals name="air_error_short_description">
+        <item quantity="one">描述至少需要 %d 個字</item>
+        <item quantity="other">描述至少需要 %d 個字</item>
+    </plurals>
+    <string name="air_error_no_username">請輸入您的Github用戶名</string>
+    <string name="air_error_no_password">請輸入您的Github密碼</string>
+    <string name="air_error_no_email">請輸入您的E-mail</string>
+    <string name="air_dialog_title_loading">正在上傳至Github…</string>
+    <string name="air_dialog_title_failed">無法發送報告</string>
+    <string name="air_dialog_description_failed_wrong_credentials">錯誤的用戶名或密碼</string>
+    <string name="air_dialog_description_failed_invalid_token">無效的身份密鑰。請聯系開發者。</string>
+    <string name="air_dialog_description_failed_issues_not_available">反饋功能在這個Github庫並沒有被開啟。請聯系開發者。</string>
+    <string name="air_dialog_description_failed_unknown">其他錯誤。請聯系開發者。</string>
+    <string name="air_dialog_action_failed">確認</string>
+    <string name="issue_title">報告問題</string>
+    <string name="issue_join">加入討論組</string>
+    <string name="issue_join_content">QQ群號： 716971999</string>
+    <string name="issue_toast">號碼已被復制</string>
+    <string name="about_intro">介紹頁</string>
+    <string name="appearance_card_modes">卡片樣式</string>
+    <string name="appearance_card_modes_sub">選擇壹種卡片樣式</string>
+    <string name="card_mode_about">卡片樣式</string>
+    <string name="card_mode_about_content">我們建議使用默認樣式，但是如果您厭倦了不停地授予無障礙權限，我們也提供了兼容的樣式來供您選擇。</string>
+    <string name="category_phone">電話</string>
+    <string name="card_menu_translation">翻譯</string>
+    <string name="card_menu_dismiss_translatino">清除翻譯歷史</string>
+    <string name="card_menu_share">分享</string>
+    <string name="pay_fail">失敗</string>
+    <string name="pay_succ">感謝</string>
+    <string name="pay_succ_content">支付成功，現在已經解鎖專業版</string>
+    <string name="pay_active">激活</string>
+    <string name="promote_active">激活中</string>
+    <string name="short_url_pre">"短網址 ：  "</string>
+    <string name="main_url_pre">"主域名 ：  "</string>
+    <string name="share_share">分享鏈接</string>
+    <string name="share_dialog_title">分享鏈接與 QR 碼</string>
+    <string name="share_share2">分享內容</string>
+    <string name="share_content">"<b>內容</b> :   "</string>
+    <string name="copied">已復制</string>
+    <string name="benefit_3">翻譯語言到中文</string>
+    <string name="benefit_3_sub">將來會有從中文翻譯的功能</string>
+    <string name="pro_user">專業版本</string>
+    <string name="promodecode">您的激活碼</string>
+    <string name="isnotpro">需要專業版本</string>
+    <string name="saved">已保存</string>
+    <string name="floatwindow_alpha">懸浮窗透明度（ 默認 100 ）</string>
+    <string name="floatwindow_color">懸浮窗背景色</string>
+    <string name="setting_qr">QR 設置</string>
+    <string name="qr_bg">QR 背景</string>
+    <string name="qr_bg_content">自定義您的 QR 背景</string>
+    <string name="qr_dot">QR 信息塊</string>
+    <string name="qr_dot_content">生成時使用圓形信息塊</string>
+    <string name="share_save">保存圖片</string>
+    <string name="emptyview">什麽也沒有</string>
+    <string name="accessibility_service_description">用來收集並展示所復制的軟件的圖標和名稱</string>
+    <string name="base_permission">獲得權限失敗</string>
+    <string name="base_permission_sub">您可能需要手動授權</string>
+    <string name="appearance_nav_access">在導航欄顯示按鈕</string>
+    <string name="appearance_nav_access_sub">安卓奧利奧新特性</string>
+    <string name="nav_botton_helper">請重新授予無障礙權限來生效</string>
+    <string name="special_thanks">特別鳴謝</string>
+    <string name="cant_draw_overlay">需要懸浮窗權限</string>
+    <string name="special_thanks_1">TTTornado</string>
+    <string name="special_thanks_1_content">感謝他為開發者報告的大量 Bugs 和建議</string>
+    <string name="active_error">激活失敗，錯誤的激活碼</string>
+    <string name="express1">這是壹條快遞單號嗎？</string>
+    <string name="express2">壹個錯誤的號碼或者沒有網絡連接</string>
+    <string name="express3">查找中</string>
+    <string name="express4">沒有記錄</string>
+    <string name="title_bl">黑名單</string>
+    <string name="setting_disable_ads">關閉廣告</string>
+    <string name="setting_disable_ads_sub">關閉所有內置廣告</string>
+    <string name="setting_disable_ads_dialog_title">您知道嗎？</string>
+    <string name="setting_disable_ads_dialog_content">開發者必須給 API 提供商付費才能使用他們的 API ，無法付費的話這項功能就會被終止。請再考慮壹次，畢竟個人開發者的愛電壓低，發不了電。</string>
+    <string name="setting_disable_ads_dialog_cancel">取消</string>
+    <string name="setting_disable_ads_dialog_continue">繼續關閉</string>
+    <string name="setting_blacklist">黑名單</string>
+    <string name="setting_blacklist_app">黑名單軟件</string>
+    <string name="setting_blacklist_app_sub">選擇您要屏蔽的軟件</string>
+    <string name="shortcut_1">剪貼板</string>
+    <string name="about_translator">幫助翻譯</string>
+    <string name="about_translator_sub">使 Paste 國際化</string>
+
+    <string name="image_word_single">圖片</string>
+    <string name="image_word_double">圖片</string>
+    <string name="no_voice_input">無法找到輔助應用設置，請咨詢您的生產商</string>
+    <string name="card_menu_open">打開鏈接</string>
+    <string name="card_menu_cancel_collect">取消收藏</string>
+    <string name="database_autoclear_sub">在規定時間後清理儲存</string>
+    <string name="database_autoclear">自動清理服務</string>
+
+
+    <string name="share_title">分享設置</string>
+    <string name="share_enable">啟動分享接收器</string>
+    <string name="share_enable_sub">使 Paste 可以接受您的分享內容</string>
+    <string name="share_compress">圖像壓縮器</string>
+    <string name="share_compress_sub">控制壓縮倍率來節省空間</string>
+    <string name="share_disabled_toast">請在設置中開啟分享接收器</string>
+    <string name="share_about">這是什麽</string>
+    <string name="share_about_sub">啟動該項後，您可以分享其他應用程序的圖片，信息到 Paste。Paste會正確的處理這些文件並時刻準備著您在未來的再次分享</string>
+    <string name="compressor_about">圖片壓縮器</string>
+    <string name="compressor_about_sub">當 Paste 接受到其他應用程序的圖片時，根據 Google 安全政策 Paste 需要將圖片再次儲存來提供二次分享功能，這意味著隨著圖片的大小變大 Paste 會占用更多空間。圖片壓縮器為此而生。設置為 100 意味著無壓縮，推薦設置大於等於50的值來提供最優性能。</string>
+    <string name="lock">鎖定</string>
+    <string name="noRoot">沒有 Root 權限，以無障礙模式啟動</string>
+    <string name="setting_regex_title">正則黑名單</string>
+    <string name="setting_regex_sub">自定義正則表達式來防止剪貼板入侵</string>
+    <string name="dialog_regex_add">添加</string>
+    <string name="dialog_regex_delete">刪除</string>
+    <string name="login_success">登陸成功</string>
+    <string name="login">登錄</string>
+    <string name="Username">用戶名</string>
+    <string name="Password">密碼</string>
+    <string name="forgot_your_password">忘記密碼？</string>
+    <string name="go">登錄</string>
+    <string name="repeat_password">重復密碼</string>
+    <string name="next">下壹步</string>
+    <string name="register">註冊</string>
+    <string name="lock_noti">鎖定當前剪貼內容</string>
+    <string name="append_noti">再次點擊以停止添加內容</string>
+    <string name="universe_copy_no_content">無法復制</string>
+    <string name="universe_copy_success">復制成功</string>
+    <string name="universe_disability">不能從 Paste 或 SystemUI 復制內容</string>
+    <string name="changelog">ChangeLog</string>
+    <string name="help_3_title">如何保持後臺?</string>
+    <string name="help_3_content">Paste 擁有完善的後臺邏輯，所有核心方法都寫入了後臺服務中。她的用戶界面僅僅作為設置使用，即使關閉也不會對 Paste
+        的剪貼板監控造成影響。所以，為了保持後臺，您只需要開啟 Paste 的服務，並把 Paste 置入第三方守護軟件的白名單中（例如黑閾，綠色守護等）
+    </string>
+    <string name="help_4_title">如何使用特別功能？</string>
+    <string name="help_4_content">連續復制：在 Paste 懸浮窗中點擊按鈕啟動。啟動後 Paste 將接管安卓剪貼板，此階段您的壹切復制內容都不會保存在安卓剪貼板，而會手機在 Paste
+        中。當您再次點擊按鈕關閉該模式時， Paste 會將您的所有復制連接為壹句話並輸出到剪貼板。\n\n鎖定：在 Paste
+        懸浮窗中點擊按鈕啟動。啟動後安卓系統的壹切復制都會被攔截，您的剪貼板將壹直保留開啟該功能前的內容不變。\n\n全局復制：啟動 Paste 的無障礙服務後可以在 Paste
+        的懸浮窗中點擊按鈕啟動。啟動後將可以對所在屏幕的文本內容進行復制。
+    </string>
+    <string name="help_5_title">什麽是正則守護？</string>
+    <string name="help_5_content">
+        某些應用會定時向安卓剪貼板發送代碼來促銷自己的某個產品，這看起來無害，但有時我們的剪貼板或許正好存儲了重要的資料。正則守護為此而生。添加正則規則來過濾某些有規律的信息來守護純凈剪貼板。
+    </string>
+    <string name="menu_sort_defalut">默認排序</string>
+    <string name="menu_sort_time">時間正序排序</string>
+    <string name="menu_sort_time_desc">時間倒序排序</string>
+    <string name="sms_copied">驗證碼已經被發送到 Paste</string>
+    <string name="setting_other">其他</string>
+    <string name="sms_receiver_title">開啟驗證碼接收器</string>
+    <string name="sms_receiver_content">自動發送驗證碼到 Paste</string>
+    <string name="no_more_accessibility_tips_title">開啟輔助權限提示</string>
+    <string name="no_more_accessibility_tips_content">在您沒有開啟輔助應用權限時</string>
+    <string name="card_menu_read">閱讀</string>
+    <string name="translation_section">翻譯為...</string>
+    <string name="text_size_title">字體大小</string>
+    <string name="unlock">解鎖</string>
+</resources>

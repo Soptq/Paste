@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#546E7A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorgrey">#757575</color>
+    <color name="colorgreen">#4CAF50</color>
+    <color name="colorGreyBG">#F5F5F5</color>
+    <color name="colorNotThatWhite">#E0E0E0</color>
+    <color name="colorAPP">#F8850A</color>
+    <color name="colorAPPDark">#FF6D00</color>
+    <color name="colorRed">#F44336</color>
+    <color name="readerColor">#2196F3</color>
+    <color name="colorPurple">#673AB7</color>
+    <color name="colorCyan">#00BCD4</color>
+    <color name="colorTeal">#009688</color>
+    <color name="colorLime">#CDDC39</color>
+    <color name="colorYellow">#FFEB3B</color>
+    <color name="colorPrimaryDarkTransparent">#FF03A9F4</color>
+    <color name="colorLimeDark">#A4B42B</color>
+    <color name="colorCyanDark">#0097A7</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentactive">#5000838F</color>
+    <color name="copyPrimary">#00ACC1</color>
+    <color name="copyPrimaryDark">#00838F</color>
+    <color name="popupMenuItemColor">#6C698F</color>
+    <color name="lightGreen">#AED581</color>
+    <color name="transparent_30">#000000B2</color>
+</resources>

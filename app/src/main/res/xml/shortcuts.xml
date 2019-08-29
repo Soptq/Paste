@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/shortcut_1"
+        android:shortcutDisabledMessage="@string/shortcut_1"
+        android:shortcutId="publish"
+        android:shortcutLongLabel="@string/shortcut_1"
+        android:shortcutShortLabel="@string/shortcut_1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="soptqs.paste.activities.PopUpActivity"
+            android:targetPackage="soptqs.paste" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

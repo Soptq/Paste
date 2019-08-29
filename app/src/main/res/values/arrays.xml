@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_color_methods">
+        <item>Dominant</item>
+        <item>Primary</item>
+        <item>Vibrant</item>
+        <item>Muted</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="array_mode">
+        <item>Root</item>
+        <item>Accessibility</item>
+    </string-array>
+
+    <string-array name="array_card">
+        <item>Clipboard</item>
+        <item>Collection</item>
+    </string-array>
+
+    <string-array name="array_card_mode">
+        <item>Default</item>
+        <item>Compaty</item>
+        <!--<item>Vertical</item>-->
+        <!--<item>VTCompaty</item>-->
+    </string-array>
+
+    <string-array name="array_auto_clear">
+        <item>3 Days</item>
+        <item>7 Days</item>
+        <item>30 Days</item>
+        <item>Forever</item>
+    </string-array>
+
+
+    <string-array name="translate_from">
+        <item>Chinese</item>
+        <item>English</item>
+        <item>Cantanese</item>
+        <item>Classical Chinese</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Thai</item>
+        <item>Arabic</item>
+        <item>Russian</item>
+        <item>Portuguese</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Greek</item>
+        <item>Dutch</item>
+        <item>Polish</item>
+        <item>Bulgarian</item>
+        <item>Estonia</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Czech</item>
+        <item>Romanian</item>
+        <item>Slovenia</item>
+        <item>Swedish</item>
+        <item>Hungarian</item>
+        <item>Traditional Chinese</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <string-array name="translate_from_code">
+        <item>zh</item>
+        <item>en</item>
+        <item>yue</item>
+        <item>wyw</item>
+        <item>jp</item>
+        <item>kor</item>
+        <item>fra</item>
+        <item>spa</item>
+        <item>th</item>
+        <item>ara</item>
+        <item>ru</item>
+        <item>pt</item>
+        <item>de</item>
+        <item>it</item>
+        <item>el</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>bul</item>
+        <item>est</item>
+        <item>dan</item>
+        <item>fin</item>
+        <item>cs</item>
+        <item>rom</item>
+        <item>slo</item>
+        <item>swe</item>
+        <item>hu</item>
+        <item>cht</item>
+        <item>vie</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+            android:id="@+id/floatwindow_sort_default"
+            android:title="@string/menu_sort_defalut"/>
+    <item
+            android:id="@+id/floatwindow_sort_time"
+            android:title="@string/menu_sort_time"/>
+    <item
+            android:id="@+id/floatwindow_sort_time_desc"
+            android:title="@string/menu_sort_time_desc"/>
+</menu>

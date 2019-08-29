@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <RelativeLayout
+                android:id="@+id/toolbar_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_permission"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/if_icon_24_key"
+                    android:tint="@color/colorWhite"
+                    android:transitionName="img_permission"
+                    app:civ_border_color="@color/colorPurple"
+                    app:civ_border_width="2dp"
+                    app:civ_fill_color="@color/colorPurple" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_database"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/if_storage"
+                    android:tint="@color/colorWhite"
+                    android:transitionName="img_database"
+                    app:civ_border_color="@color/colorCyan"
+                    app:civ_border_width="2dp"
+                    app:civ_fill_color="@color/colorCyan" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_service"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/if_ic_settings_power"
+                    android:tint="@color/colorWhite"
+                    android:transitionName="img_service"
+                    app:civ_border_color="@color/colorTeal"
+                    app:civ_border_width="2dp"
+                    app:civ_fill_color="@color/colorTeal" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_cloud"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dp"
+                    android:padding="10dp"
+                    android:src="@mipmap/if_non_service_specific_copy_internet"
+                    android:tint="@color/colorWhite"
+                    android:transitionName="img_cloud"
+                    app:civ_border_color="@color/readerColor"
+                    app:civ_border_width="2dp"
+                    app:civ_fill_color="@color/readerColor" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?android:attr/actionBarSize"
+                    app:layout_collapseMode="pin"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                    android:id="@+id/contentPermission"
+                    layout="@layout/content_quicklook_permission"
+                    android:visibility="gone"/>
+
+            <include
+                    android:id="@+id/contentDatabase"
+                    layout="@layout/content_quicklook_database"
+                    android:visibility="gone"/>
+
+            <include
+                    android:id="@+id/contentService"
+                    layout="@layout/content_quicklook_service"
+                    android:visibility="gone"/>
+
+            <include
+                    android:id="@+id/contentCloud"
+                    layout="@layout/content_quicklook_cloud"
+                    android:visibility="gone"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

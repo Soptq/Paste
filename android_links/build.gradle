@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+apply from: './gradle-mvn-push.gradle'
+apply plugin: 'jacoco'
+
+android {
+    compileSdkVersion 27
+    resourcePrefix "about_page"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 72
+        versionName "2.0.2"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'me.drakeet.multitype:multitype:3.4.4'
+    compileOnly 'com.squareup.picasso:picasso:2.71828'
+    testImplementation 'junit:junit:4.12'
+}

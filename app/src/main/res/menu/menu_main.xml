@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="soptqs.paste.Paste">
+    <item
+        android:id="@+id/action_syncDatabase"
+        android:orderInCategory="100"
+        android:title="@string/maintain"
+        app:showAsAction="never" />
+</menu>

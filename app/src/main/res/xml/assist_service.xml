@@ -1,0 +1,5 @@
+<voice-interaction-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:recognitionService="soptqs.paste.services.assistant.AssistantService"
+    android:sessionService="soptqs.paste.services.assistant.AssistantSessionService"
+    android:supportsAssist="true"></voice-interaction-service>
